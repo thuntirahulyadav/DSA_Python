@@ -3,8 +3,8 @@ def kth_max_min(arr,k):
     arr.sort()
     if k > len(arr) or k<=0 :
         return print("invalid k value")
-    kth_max = arr[k-1]
-    kth_min = arr[len(arr)-k]
+    kth_max = arr[len(arr)-k]
+    kth_min = arr[k-1]
     return kth_max,kth_min
 n=int(input("enter the number of elements in array:"))
 arr=[]
