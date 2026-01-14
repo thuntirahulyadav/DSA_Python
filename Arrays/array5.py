@@ -4,21 +4,19 @@ def find_union(a,b):
     union=[]
     while i < len(a) and j < len(b):
         if a[i] < b[j]:
-            union.append(a[i])
-            i += 1
+           if not union or union[-1] != a[i]:
+              union.append(a[i])
+           i += 1
         elif a[i] > b[j]:
-            union.appen(b[j])
-            j += 1
+             if not union or union[-1] != b[j]:
+               union.append(b[j])
+             j += 1
         else:
-            union.append(a[i])
-            i += 1
-            j += 1
-    while i < len(a):
-       union.append(a[i])
-       i+=1
-    while j < len(b):
-       union.append(b[j])
-       j += 1   
+             if not union or union[-1] != a[i]:
+               union.append(a[i])
+             i += 1
+             j += 1
+
     return union
 def find_intersection(a,b):
      i=j=0
