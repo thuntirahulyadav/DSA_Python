@@ -8,5 +8,5 @@ class Solution:
             largest=num
       return largest          
 sol=Solution()
-arr=[-1]
+arr=[1,2,3,4,5]
 print(sol.Largest(arr))   
