@@ -1,0 +1,12 @@
+class Solution:
+   def Largest(self,arr: list) ->int:
+      if not arr:
+         return None
+      largest=arr[0]
+      for num in arr:
+         if num > largest:
+            largest=num
+      return largest          
+sol=Solution()
+arr=[-1]
+print(sol.Largest(arr))   
