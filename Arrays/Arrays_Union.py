@@ -1,5 +1,5 @@
 class solution:
-    def union(self, arr1 :list, arr2 :list)->int:
+    def union(self, arr1 :list, arr2 :list)->list:
         seen=set()
         result=[]
         for num in arr1:

@@ -1,5 +1,5 @@
 class solution:
-    def linear_search(self, arr : list, target:int)->int:
+    def linear_search(self, arr :list, target :int)->int:
        if not arr:
          return -1
     
