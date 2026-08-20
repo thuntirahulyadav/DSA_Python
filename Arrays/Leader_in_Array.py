@@ -8,4 +8,4 @@ def leaders_of_array(arr)->list:
     leaders.reverse()
     return leaders        
 arr = [10,22,12,3,0,6]    
-print(leaders_of_array(arr))
+print(leaders_of_array(arr)) 
