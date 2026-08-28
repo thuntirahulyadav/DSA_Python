@@ -9,8 +9,8 @@ class solution:
        return -1 
 
 sol=solution()
-arr=[0,1,7,3,12] 
-target=7
+arr=[0,1,7,3,4] 
+target=4
 result=sol.linear_search(arr,target)
 if result != -1 :
    print(f"the element {target} found in index {result}")
