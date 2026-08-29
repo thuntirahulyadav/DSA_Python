@@ -8,5 +8,7 @@ class Solution:
      return True          
               
 sol=Solution()
-arr=[1,2,3,4,5]
-print(sol.check_sorted(arr))
+arr1=[1,2,4,3,5]
+print(sol.check_sorted(arr1))
+arr2=[1,2,3,4,5]
+print(sol.check_sorted(arr2))
