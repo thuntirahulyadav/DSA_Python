@@ -5,5 +5,5 @@ class solution:
             xor^=num
          return xor   
 sol=solution()
-arr=[4,3,4,2,3]
+arr=[5,3,4,2,5]
 print(sol.Number_appears_ones(arr)) 
