@@ -10,4 +10,4 @@ def lower_bound(arr,target):
             low = mid + 1 
     return ans   
 
-print("The Lower Bound of arr:", lower_bound([1,2,3,4,5,5,7],5) )  
+print("The Lower Bound of the element is:", lower_bound([1,2,3,4,5,5,7],5) )  
