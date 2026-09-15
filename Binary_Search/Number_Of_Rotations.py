@@ -10,8 +10,8 @@ def find_rotation_count(arr):
             break
         if arr[low]<=arr[mid]:
             if arr[low]< min_val:
-                min_val=arr[row]
-                min_index=row
+                min_val=arr[low]
+                min_index=low
             low=mid+1
         else:
             if arr[mid]< min_val:
